@@ -1,4 +1,4 @@
-# Nine Challenges of Video Distribution and Why They're Not Really a Challenge
+# Ten Challenges of Video Distribution and Why They're Not Really a Challenge
 
 You are a self-declared foodie, and you've always tremendously enjoyed cooking. You especially love hearing about what your friends are cooking: all their new ideas and the specific nuances that add flair to this dishes. You wish everyone had this opportunity to share delicious thoughts and ideas, so you create a platform for people to share the recipes that are close to their hearts. Classic, right? 
 
@@ -16,11 +16,11 @@ And what if they also want to do some basic editing on their video? Shorten it m
 
 ## 3. Transcoding 
 
-You probably haven't considered the whole world of transcoding. Maybe you've heard it referred to as encoding? Either way, it is the process in which video files are converted into different file formats, to make them available for viewing on different types of devices. Your 55 inch TV doesn't play the same video you'd watch on your phone - you can imagine how grainy that would look on your TV, or how long it would take to load on your phone. These videos are transcoded using "codecs", which are like algorithms that determine how the files will be compressed using optimized quality and bandwidth consumption - a process that requires a whole lot of server resources. Add that to the list of thigns you'll need: a bunch of really strong processors that'll convert each uploaded video to a bunch of different formats resolutions and qualities.
+You probably haven't considered the whole world of transcoding. Maybe you've heard it referred to as encoding? Either way, it is the process in which video files are converted into different file formats, to make them available for viewing on different types of devices. Your 55 inch TV doesn't play the same video you'd watch on your phone - you can imagine how grainy that would look on your TV, or how long it would take to load on your phone. These videos are transcoded using "codecs", which are like algorithms that determine how the files will be compressed using optimized quality and bandwidth consumption - a process that requires a whole lot of server resources. Add that to the list of things you'll need: a bunch of really strong processors that'll convert each uploaded video to a bunch of different formats resolutions and qualities.
 
 ## 4. Thumbnails (Cover Photos)
 
-Have you ever uploaded a video of yourself to YouTube, and when it was finally ready to watch, you noticed that the thumbnail for the video is a really unflattering shot of you? Well, you really don't want that to happent to your Culinary Experts; their video thumbnail is essentially what's going to attract viewers to that specific post, so you want to give them the ability to select the best frame in their video that will display in their recipe gallery, or even more importantly, on social media. 
+Have you ever uploaded a video of yourself to YouTube, and when it was finally ready to watch, you noticed that the thumbnail for the video is a really unflattering shot of you? Well, you really don't want that to happen to your Culinary Experts; their video thumbnail is essentially what's going to attract viewers to that specific post, so you want to give them the ability to select the best frame in their video that will display in their recipe gallery, or even more importantly, on social media. 
 
 ## 5. Captioning 
 
@@ -43,7 +43,7 @@ When you've out who gets access to the video and who doesn't, how does that vide
 That player needs to be able to phone home, so that you can give your Experts the ability to see how their videos are doing: do people find them too long? Are they dropping off halfway through? Or are they pausing and rewinding a lot because the video is too quick-paced? How many times are they watching and at what hours do they prefer to watch? You want all this data to be available in a coherent UI or dashboard that'll make it easy for your Experts to gain insights on how successful they are, and even for you to see things on a higher level. Especially if you want to introduce monetization. 
 
 ## 10. Monetize 
-At some point every product, like this one, hits a point where it makes sense for users to start earning money. Enter the deep dark world of adtech. The options here are vast: you might chose to easily impelementation some banners, or maybe you want to help your Experts go all out and create sophisticated video campaigns that earn them a little more, but are harder to manage. In either case, you want to give the best options to your Experts, while also creating an experience for their users that is seamless and not very intrusive. 
+At some point every product, like this one, hits a point where it makes sense for users to start earning money. Enter the deep dark world of Ad-Tech. The options here are vast: you might chose to easily implement some banners, or maybe you want to help your Experts go all out and create sophisticated video campaigns that earn them a little more, but are harder to manage. In either case, you want to give the best options to your Experts, while also creating an experience for their users that is seamless and not very intrusive. 
 
 ## Before You Give Up
 
@@ -57,7 +57,14 @@ Personally, we call it VPaaS (Video Platform as a Service) but you can call it a
 
 All you need is a developer, really. 
 
-You can make it really simple for anyone on your platform to upload video, no matter from where or what kind. The video will go straight to its new home in our cloud. Once it gets there, the transcoding process will automatically start: creating  videos of different preset formats. The users will be able to snip slice and chop their videos, and select the preferred thumbnails for their gallery. And hey, if none of those frames are good enough, they can upload a separate image to feature as the video's cover photo. 
-If they want to be over-the-top, they can create in-video quizzes that will stop at specified points in the video and ask questions like "What is the difference between convection and bake?" just to make sure the viewers are paying attention. 
+You can make it really simple for anyone on your platform to upload video, no matter from where or what kind. The video will go straight to its new home in our cloud. Once it gets there, the **transcoding** process will automatically begin and create  videos of different preset formats. The users will be able to do some basic **cropping** operations on their videos, and select the preferred **thumbnails** for their gallery. And hey, if none of those frames are good enough, they can upload a separate image to feature as the video's cover photo. 
 
+If your Experts want to be over-the-top, they can create **in-video quizzes** that will stop at specified points in the video and ask questions like "What is the difference between convection and bake?" just to make sure the viewers are paying attention. To help route the viewer to the right recipes, the Experts can also add **hotspots** to their videos, which are essentially just links on specific spots in the video. 
 
+Videos can be added to **categories**, for the different types of recipes that might be available. But categories are especially useful for handling security and access management: for example videos be be split into groups for paid versus unpaid, content or maybe long version and short version, where each category is given different rules about who can view those videos, who can edit those videos, and in which context. 
+
+The world of categories and **security** goes beyond that however; what if some of the Experts collaborated on specific content and wanted to give each other the ability to manage all of that content? With rules and permissions, all of those details could be easily put into place. 
+
+Once the content is ready to go and the first viewer requests it, the CDN kicks into action and **distributes** that video globally, ensuring that all viewers receive it quickly and efficiently. The video is shown in our **Player**, which is fast,  customizable, and built for web pages or native iOS and Android apps, which makes it super easy to embed. Most importantly, the Player can send events that have happened, so that you and your Expert never miss an important moment that happened in the video playback. Lastly, the player features a collection of plugins, which include various options for **monetization** and server-side ad stitching, which means your Experts can become total influencers on your platform! 
+
+All this in one API, which you can use by downloading a Client Library in any of eleven programming languages! And to make the learning curve even easier, it offers a thorough [documentation portal](https://developer.kaltura.com/api-docs/VPaaS-API-Getting-Started/Getting-Started-VPaaS-API.html) that could get you running within minutes so that you and all your friends can quickly and seamlessly share delicious recipes and content. 
