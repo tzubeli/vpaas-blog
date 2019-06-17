@@ -18,7 +18,7 @@ And what if they also want to do some basic editing on their video? Shorten it m
 
 You probably haven't considered the whole world of transcoding. Maybe you've heard it referred to as encoding? Either way, it is the process in which video files are converted into different file formats, to make them available for viewing on different types of devices. Your 55 inch TV doesn't play the same video you'd watch on your phone - you can imagine how grainy that would look on your TV, or how long it would take to load on your phone. These videos are transcoded using "codecs", which are like algorithms that determine how the files will be compressed using optimized quality and bandwidth consumption - a process that requires a whole lot of server resources. Add that to the list of thigns you'll need: a bunch of really strong processors that'll convert each uploaded video to a bunch of different formats resolutions and qualities.
 
-## 4. Thumbnails (aka Poster)
+## 4. Thumbnails (Cover Photos)
 
 Have you ever uploaded a video of yourself to YouTube, and when it was finally ready to watch, you noticed that the thumbnail for the video is a really unflattering shot of you? Well, you really don't want that to happent to your Culinary Experts; their video thumbnail is essentially what's going to attract viewers to that specific post, so you want to give them the ability to select the best frame in their video that will display in their recipe gallery, or even more importantly, on social media. 
 
