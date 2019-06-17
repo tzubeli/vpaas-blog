@@ -45,6 +45,7 @@ That player needs to be able to phone home, so that you can give your Experts th
 ## 10. Monetize 
 At some point every product, like this one, hits a point where it makes sense for users to start earning money. Enter the deep dark world of adtech. The options here are vast: you might chose to easily impelementation some banners, or maybe you want to help your Experts go all out and create sophisticated video campaigns that earn them a little more, but are harder to manage. In either case, you want to give the best options to your Experts, while also creating an experience for their users that is seamless and not very intrusive. 
 
+## Before You Give Up
 
 Once you've considered all these various elements, adding video capabilities to your recipe sharing platform is seeming like a bigger headache than it's worth. Nobody needs video anyway, right?
 Wrong. 
